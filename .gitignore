@@ -11,7 +11,7 @@ target/
 
 pasta_data/*
 microbin_data/*
-.env.example
+.env
 **/**/microbin-data
 /.agent
 /node_modules
