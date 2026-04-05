@@ -1,6 +1,7 @@
 services:
   microbin:
-    image: maralexofficial/insertia-microbin:latest
+    build: .
+    image: maralexofficial/inserta-microbin:latest
     restart: unless-stopped
     ports:
      - "${MICROBIN_PORT}:8080"
