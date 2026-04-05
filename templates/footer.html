@@ -3,8 +3,7 @@
 <p style="font-size: small; text-align: center;margin-top: 2rem;">
     {% if args.footer_text.as_ref().is_none() %}
     <a href="https://microbin.eu">MicroBin</a> by Dániel Szabó and the FOSS
-    Community. Let's keep the Web <b>compact</b>, <b>accessible</b> and
-    <b>humane</b>! {%- else %} {{ args.footer_text.as_ref().unwrap()|safe }} {%-
+    Community. Fork from <a href="https://microbin.eu">maralexofficial</a>  {%- else %} {{ args.footer_text.as_ref().unwrap()|safe }} {%-
     endif %}
 </p>
 
