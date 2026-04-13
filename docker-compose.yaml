@@ -2,6 +2,7 @@ services:
   microbin:
     build: .
     image: maralexofficial/inserta-microbin:latest
+    container_name: inserta-microbin
     restart: unless-stopped
     logging:
       driver: "json-file"
